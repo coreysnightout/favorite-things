@@ -8,14 +8,15 @@ $(function(){
     var favorites = [animal, color, cheese, tv, book]
     var text = [];
 
-    text.push(favorites[3], favorites[0], favorites[4]);
-    $("ul").prepend("<li>" + text[0] + "</li>");
-    $("ul").prepend("<li>" + text[1] + "</li>");
-    $("ul").prepend("<li>" + text[2] + "</li>");
+    text.push(favorites[3], favorites[0], favorites[4], favorites[2]);
+    $("ul").append("<li>" + text[0] + "</li>");
+    $("ul").append("<li>" + text[1] + "</li>");
+    $("ul").append("<li>" + text[2] + "</li>");
+    $("ul").append("<li>" + text[3] + "</li>");
 
 
-
-    $(".favoriteThings").text(text);
+    //
+    // $(".favoriteThings").text(text);
 
 
       event.preventDefault();
