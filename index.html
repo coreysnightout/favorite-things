@@ -1,58 +1,148 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/styles3.css" rel="stylesheet" type="text/css">
-  </head>
-    <title>Michael's favorite things</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Things</title>
   </head>
   <body>
-    <h1>My favorite things</h1>
-    <h2>These are a few of my favorite things.</h2>
-    <h3>People</h3>
-    <p>Here are some of my favorite people!</p>
-    <ul>
-      <li>
-        <a href="http://www.example.com/christopher.html">
-          My brother <strong>Christopher</strong>
-          <img src="img/christopher.jpeg" alt="A photo of Christopher"/>
-        </a>
-      </li>
-      <li>My mom and dad:
+    <div class="container">
+      <h1>Please fill in some of your favorite things:</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="animal">What's your favorite animal?</label>
+            <input id="animal" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="color">What's your favorite color?</label>
+            <input id="color" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="cheese">What's your favorite type of cheese?</label>
+            <input id="cheese" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="tv">What's your favorite TV show?</label>
+            <input id="tv" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="book">What's your favorite book?</label>
+            <input id="book" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Submit!</button>
+        </form>
+      </div>
+      <div>
         <ul>
-          <li>
-            <a href="http://www.example.com/steve.html">
-              <strong>Steve</strong>
-              <img src="img/steve.jpg=s1200x1200" alt="A photo of Steve"/>
-            </a>
-          </li>
-          <li>
-            <a href="http://www.example.com/carol.html">
-              <strong>Carol</strong>
-              <img src="img/carol.jpg" alt="A photo of Carol"/>
-            </a>
-          </li>
+
         </ul>
-      </li>
-      <li>
-        <a href="http://www.example.com/jessica.html">
-          My friend <strong>Jessica</strong>
-          <img src="img/jessica.jpg" alt="A photo of Jessica"/>
-        </a>
-      </li>
-      <li>
-        <a href="http://www.example.com/jessica.html">
-          My friend <strong>Candy</strong>
-          <img src="img/candy.jpg" alt=""/>
-        </a>
-      </li>
-    </ul>
-    <h3>Flavors of ice cream</h3>
-    <p>These are my three favorites, in order:</p>
-    <ol>
-      <li>Pistachio</li>
-      <li>Malted milk chocolate</li>
-      <li>Black licorice (really!)</li>
-    </ol>
-    <p>Thanks for reading about me!</p>
+      </div>
+    </div>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" action="index.html" method="post">
+        <div class="form-group">
+          <label for="favoriteDog">Enter Favorite Dog</label>
+          <input type="email" class="form-control" id="favoriteDog">
+        </div>
+        <div class="form-group">
+          <label for="favoriteCat">Enter Favorite Cat</label>
+          <input type="email" class="form-control" id="favoriteCat">
+        </div>
+        <div class="form-group">
+          <label for="favoriteFood">Enter Favorite Food</label>
+          <input type="email" class="form-control" id="favoriteFood">
+        </div><div class="form-group">
+          <label for="favoriteCity">Enter Favorite City</label>
+          <input type="email" class="form-control" id="favoriteCity">
+        </div>
+        <div class="form-group">
+          <label for="favoriteStore">Enter Favorite Store</label>
+          <input type="email" class="form-control" id="favoriteStore">
+        </div>
+      </form>
+      <button type="submit" class="btn btn-primary">submit</button>
+      <div class="output">
+        <ul>
+
+        </ul>
+      </div>
+    </div>
+  </body>
+</html> -->
